@@ -12,7 +12,7 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 
 import java.util.List;
 
-public class westWingModelScreen {
+public class WestWingModelScreen {
 
 
     private By listOfWishlistIcon = By.xpath(".//*[@class='border']");
@@ -72,7 +72,7 @@ public class westWingModelScreen {
                         System.out.println("Wishlist First Item is selected");
 
 
-                        Utils.takeSnapShot(Constant.webdriver, "src/ScreenShots/" + Constant.time + "wishList_item_Selected.png");
+                        Utils.takeSnapShot(Constant.webdriver, "src/ScreenShots/" + Constant.time + "_wishList_item_Selected.png");
                         break;
                     } else {
                         System.out.println("Not found index 0");

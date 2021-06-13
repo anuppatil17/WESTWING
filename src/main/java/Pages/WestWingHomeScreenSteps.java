@@ -53,7 +53,7 @@ public class WestWingHomeScreenSteps {
 
             if (Utils.isDisplayed(cookieAcceptBtn)) {
                 System.out.println("Cookies is displayed");
-                Utils.takeSnapShot(Constant.webdriver, "src/ScreenShots/" + Constant.time + "popup.png");
+                Utils.takeSnapShot(Constant.webdriver, "src/ScreenShots/" + Constant.time + "_popup.png");
 
                 Utils.isClicked(cookieAcceptBtn);
 

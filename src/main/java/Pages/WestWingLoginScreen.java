@@ -90,7 +90,7 @@ public class WestWingLoginScreen {
                 Thread.sleep(3000);
 
 
-                Utils.takeSnapShot(Constant.webdriver, "src/ScreenShots/" + Constant.time + "login_success_Screen.png");
+                Utils.takeSnapShot(Constant.webdriver, "src/ScreenShots/" + Constant.time + "_login_success_Screen.png");
 
 
             } else {

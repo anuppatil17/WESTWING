@@ -28,7 +28,7 @@ public class WestWingWishListScreen {
                 System.out.println("Wishlist item is added");
 
 
-                Utils.takeSnapShot(Constant.webdriver, "src/ScreenShots/" + Constant.time + "Wishlist_Item_added_displayed.png");
+                Utils.takeSnapShot(Constant.webdriver, "src/ScreenShots/" + Constant.time + "_Wishlist_Item_added_displayed.png");
 
 
             } else {
@@ -58,7 +58,7 @@ public class WestWingWishListScreen {
                 Thread.sleep(3000);
 
 
-                Utils.takeSnapShot(Constant.webdriver, "src/ScreenShots/" + Constant.time + "Wishlist_Screen.png");
+                Utils.takeSnapShot(Constant.webdriver, "src/ScreenShots/" + Constant.time + "_Wishlist_Screen.png");
 
 
             } else {
@@ -102,7 +102,7 @@ public class WestWingWishListScreen {
                         System.out.println("wishListProduct First Item is deleted");
 
 
-                        Utils.takeSnapShot(Constant.webdriver, "src/ScreenShots/" + Constant.time + "wishList_item_deleted_Screen.png");
+                        Utils.takeSnapShot(Constant.webdriver, "src/ScreenShots/" + Constant.time + "_wishList_item_deleted_Screen.png");
 
 
                     } else {
