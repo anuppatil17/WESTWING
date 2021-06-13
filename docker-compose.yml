@@ -50,7 +50,7 @@ services:
       - chrome
       - firefox
       - hub
-    working_dir: /src
+    working_dir: /src/test/java/resource
     environment:
       - BROWSER=chrome
       - HUB_HOST=hub
